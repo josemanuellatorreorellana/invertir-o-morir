@@ -9,3 +9,6 @@ Hecho con HTML5 y CSS3 (sin frameworks). Maquetación responsive basada en flex/
 
 ## Ejecutar en local
 Usa la extensión Live Server de VS Code o abre `index.html` en un navegador.
+
+## Demo
+https://josemanuellatorreorellana.github.io/invertir-o-morir/
