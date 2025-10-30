@@ -4,17 +4,16 @@
   <meta charset="utf-8">
   <title>Invertir o Morir — Educación cripto responsable</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Favicon (logo) -->
   <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div>
-    <!-- CABECERA -->
-    <header>
+  <div class="container">
+    <!-- CABECERA + NAV -->
+    <header class="site-header">
       <img src="assets/img/logo.png" alt="Logo de Invertir o Morir" width="64" height="64">
-      <h1>INVERTIR O MORIR</h1>
-
-      <nav aria-label="Navegación principal">
+      <h1 class="site-title">INVERTIR O MORIR</h1>
+      <nav aria-label="Navegación principal" class="main-nav">
         <ul>
           <li><a href="index.html" aria-current="page">Inicio</a></li>
           <li><a href="opiniones.html">Opiniones</a></li>
@@ -23,83 +22,89 @@
       </nav>
     </header>
 
-    <!-- CONTENIDO PRINCIPAL -->
     <main>
-
       <!-- HERO -->
-      <section>
-        <h1>Educación cripto responsable</h1>
-        <p>Invierte desde cero con seguridad</p>
-        <p><a href="sobre.html">Empezar</a></p>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <h1 id="hero-title">Educación cripto responsable</h1>
+          <p>Invierte desde cero con seguridad</p>
+          <p><a class="btn" href="sobre.html">Empezar</a></p>
+        </div>
 
-        <figure>
+        <figure class="hero__media">
           <img src="assets/img/hero.png" alt="Ilustración sobre educación cripto para jóvenes" width="600" height="360">
-          <figcaption>Imagen de demostración. Autor / Fuente / Licencia.</figcaption>
+          <figcaption>Imagen de demostración generada por IA.</figcaption>
         </figure>
       </section>
 
       <!-- BENEFICIOS -->
-      <section>
-        <h2>Beneficios</h2>
+      <section class="section" aria-labelledby="beneficios-title">
+        <h2 id="beneficios-title">Beneficios</h2>
+        <div class="benefit-grid">
+          <article class="card">
+            <h3>Aprende a invertir seguro</h3>
+            <p>Principios de gestión de riesgo y custodia.</p>
+          </article>
 
-        <article>
-          <h3>Aprende a invertir seguro</h3>
-          <p>Principios de gestión de riesgo y custodia.</p>
-        </article>
+          <article class="card">
+            <h3>Blockchain sin humo</h3>
+            <p>Entiende la tecnología con ejemplos claros.</p>
+          </article>
 
-        <article>
-          <h3>Blockchain sin humo</h3>
-          <p>Entiende la tecnología con ejemplos claros.</p>
-        </article>
-
-        <article>
-          <h3>Marco legal en España</h3>
-          <p>Conoce lo básico para operar con responsabilidad.</p>
-        </article>
+          <article class="card">
+            <h3>Marco legal en España</h3>
+            <p>Conoce lo básico para operar con responsabilidad.</p>
+          </article>
+        </div>
       </section>
 
       <!-- QUÉ APRENDERÁS -->
-      <section>
-        <h2>Qué aprenderás</h2>
-        <ul>
-          <li>Fundamentos de blockchain y criptoeconomía.</li>
-          <li>Tipos de wallets y seguridad básica.</li>
-          <li>Riesgo, gestión de capital y estafas comunes.</li>
-          <li>Operativa responsable y marco legal.</li>
-          <li>Cómo evaluar proyectos y tokens.</li>
-          <li>Plan personal: objetivos y horizontes temporales.</li>
-        </ul>
+      <section class="section" aria-labelledby="learning-title">
+        <h2 id="learning-title">Qué aprenderás</h2>
+        <div class="learning-grid">
+          <ul>
+            <li>Fundamentos de blockchain y criptoeconomía.</li>
+            <li>Tipos de wallets y seguridad básica.</li>
+            <li>Riesgo, gestión de capital y estafas comunes.</li>
+          </ul>
+          <ul>
+            <li>Operativa responsable y marco legal.</li>
+            <li>Cómo evaluar proyectos y tokens.</li>
+            <li>Plan personal: objetivos y horizontes temporales.</li>
+          </ul>
+        </div>
       </section>
 
       <!-- TESTIMONIOS -->
-      <section>
-        <h2>Qué opinan nuestros alumnos</h2>
-        <p>Lo que dicen quienes ya empezaron en cripto con cabeza.</p>
+      <section class="section testimonials" aria-labelledby="testi-title">
+        <h2 id="testi-title">Qué opinan nuestros alumnos</h2>
+        <p class="section-sub">Lo que dicen quienes ya empezaron en cripto con cabeza</p>
 
-        <article>
-          <h3>Laura, 19 – Universitaria</h3>
-          <p>★★★★★ 5/5</p>
-          <blockquote>“Aprendí a evitar estafas y a usar wallets con seguridad. Empecé con poco y con un buen plan.”</blockquote>
-        </article>
+        <div class="testi-grid">
+          <article class="card">
+            <h3>Laura, 19 — Universitaria</h3>
+            <p class="stars">★★★★★ 5/5</p>
+            <blockquote>“Aprendí a evitar estafas y a usar wallets con seguridad. Empecé con poco y con un buen plan.”</blockquote>
+          </article>
 
-        <article>
-          <h3>Juan, 23 – Universitario</h3>
-          <p>★★★★★ 5/5</p>
-          <blockquote>“Ahora entiendo los riesgos y sólo invierto lo que me puedo permitir perder. Cero humo.”</blockquote>
-        </article>
+          <article class="card">
+            <h3>Juan, 23 — Universitario</h3>
+            <p class="stars">★★★★★ 5/5</p>
+            <blockquote>“Ahora entiendo los riesgos y sólo invierto lo que me puedo permitir perder. Cero humo.”</blockquote>
+          </article>
 
-        <article>
-          <h3>Pedro, 21 – Universitario</h3>
-          <p>★★★★★ 5/5</p>
-          <blockquote>“El módulo legal me salvó de un lío. Me siento preparado para empezar por mi cuenta al 100%.”</blockquote>
-        </article>
+          <article class="card">
+            <h3>Pedro, 21 — Universitario</h3>
+            <p class="stars">★★★★★ 5/5</p>
+            <blockquote>“El módulo legal me salvó de un lío. Me siento preparado para empezar por mi cuenta al 100%.”</blockquote>
+          </article>
+        </div>
 
-        <p><a href="opiniones.html">Ver más opiniones</a></p>
+        <p class="more-opinions"><a href="opiniones.html">Ver más opiniones</a></p>
       </section>
     </main>
 
-    <!-- PIE -->
-    <footer>
+    <footer class="site-footer">
       <p>© 2025 Invertir o Morir.</p>
     </footer>
   </div>
